@@ -1,0 +1,8 @@
+# main links
+main:
+  - title: "Writeups"
+    url: /writeups/
+  - title: "AI/ Hardware"
+    url: /AI-H/
+  - title: "Others"
+    url: /others
