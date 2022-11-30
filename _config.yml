@@ -22,11 +22,11 @@ subtitle                 : "This is the subtitle"
 name                     : "Alphaeus"
 description              : "Computer Science student"
 url                      : "https://alphaeusng.github.io"
-baseurl                  : 
+baseurl                  : #
 repository               : "AlphaeusNg/minimal-mistakes" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "/assets/images/500x300.png" # path of fallback teaser image, e.g. 
-logo                     : "/assets/images/88x88.png" # path of logo image to display in the masthead, e.g. 
-masthead_title           : "This is the masthead_title" # overrides the website title displayed in the masthead, use " " for no title
+teaser                   : # "/assets/images/500x300.png" # path of fallback teaser image, e.g. 
+logo                     : # "/assets/images/88x88.png" # path of logo image to display in the masthead, e.g. 
+masthead_title           : # "This is the masthead_title" # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -39,7 +39,7 @@ comments:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
     num_posts            : # 5 (default)
-    colorscheme          : "dark" # "light" (default), 
+    colorscheme          : # "dark" # "light" (default), 
   utterances:
     theme                : # "github-light" (default), "github-dark"
     issue_term           : # "pathname" (default)
@@ -82,7 +82,7 @@ baidu_site_verification  :
 # Social Sharing
 twitter:
   username               :
-facebook: "https://www.facebook.com/alphaeus.ng.5/"
+facebook: # "https://www.facebook.com/alphaeus.ng.5/"
   username               :
   app_id                 :
   publisher              :
@@ -105,11 +105,17 @@ analytics:
 # Site Author
 author:
   name             : "Alphaeus Ng"
-  avatar           : "/assets/picture of myself.jpg" # path of avatar image, e.g. 
+  avatar           : # "/assets/picture of myself.jpg" # path of avatar image, e.g. 
   bio              : "A Year 3 Computer Science student primarily interested in DSAI related items."
   location         : "Singapore"
-  email            : "ang096@e.ntu.edu.sg"
+  email            : # "ang096@e.ntu.edu.sg"
   links:
+   - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/AlphaeusNg"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/alphaeus-ng-3a30b1188/"
   
 
 # Site Footer
@@ -139,7 +145,7 @@ footer:
 include:
   - .htaccess
   - _pages
-  - _writeups
+#   - _writeups
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
