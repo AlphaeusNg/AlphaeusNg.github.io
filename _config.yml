@@ -110,11 +110,11 @@ author:
   location         : "Singapore"
   email            : # "ang096@e.ntu.edu.sg"
   links:
-   - label: "GitHub"
+    - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/AlphaeusNg"
     - label: "LinkedIn"
-      icon: "fab fa-linkedin"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/alphaeus-ng-3a30b1188/"
   
 
